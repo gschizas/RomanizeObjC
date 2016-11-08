@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED66B6BC1DCF6B6E00D29E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED66B6BB1DCF6B6E00D29E30 /* main.m */; };
+		ED66B6C31DCF741600D29E30 /* romanize.m in Sources */ = {isa = PBXBuildFile; fileRef = ED66B6C21DCF741500D29E30 /* romanize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		ED66B6B81DCF6B6E00D29E30 /* RomanizeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RomanizeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED66B6BB1DCF6B6E00D29E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED66B6C21DCF741500D29E30 /* romanize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = romanize.m; sourceTree = "<group>"; };
+		ED66B6C41DCF742B00D29E30 /* romanize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = romanize.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ED66B6BB1DCF6B6E00D29E30 /* main.m */,
+				ED66B6C21DCF741500D29E30 /* romanize.m */,
+				ED66B6C41DCF742B00D29E30 /* romanize.h */,
 			);
 			path = RomanizeObjC;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED66B6C31DCF741600D29E30 /* romanize.m in Sources */,
 				ED66B6BC1DCF6B6E00D29E30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +224,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = TNAE7W2MPE;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +233,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = TNAE7W2MPE;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
